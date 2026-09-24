@@ -82,6 +82,22 @@ target/
 profile_default/
 ipython_config.py
 
+# Generated audio cache from Pygame playback
+temp_playback.wav
+
+# Transcripts and subtitle outputs
+Transcripts/
+**/Transcripts/
+*.srt
+*.vtt
+
+# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.pyc
+
+
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
@@ -179,3 +195,20 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Application Output
+Transcripts/
+exports/
+
+# OS Files
+.DS_Store
+Thumbs.db
