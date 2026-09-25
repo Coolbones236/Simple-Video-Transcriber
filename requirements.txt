@@ -1,0 +1,7 @@
+faster-whisper
+customtkinter
+pytest
+torch
+pygame
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
